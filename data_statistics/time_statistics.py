@@ -103,9 +103,7 @@ if __name__== "__main__":
 
     for i in range(0, len(other_ids)):
         x = np.array(time_sessions_started[i])
-        print(x)
         y = np.array([i/2+1] * len(time_sessions_started[i]))
-        print(y)
         plt.scatter(x=x, y=y, label=other_ids[i], edgecolors='k')
 
     plt.xlabel('Time (sec)')

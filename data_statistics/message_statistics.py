@@ -89,8 +89,8 @@ if __name__== "__main__":
     print('Messages sent: %d' % messages_sent)
     print('Messages in queue: %d' % messages_in_queue)
     print('Messages generated: %d' % messages_generated)
-    print('Messages received that were already in queue: %d' % message_already_in_queue)
-    print('Messages received their final destination: %d' % was_message_destination)
+    print('Messages received and were already in queue: %d' % message_already_in_queue)
+    print('Messages received and reached final destination: %d' % was_message_destination)
 
     print('Mean number of received messages per session: %.2f' % (messages_received / total_sessions))
     print('Mean number of messages sent per session: %.2f' % (messages_sent / total_sessions))
