@@ -41,5 +41,5 @@ For example:
     ./main_8448 7200
 
 ## Experiment 
-The service was tested on a wireless ad hoc network consisted of 3 Raspberry Pi Zero W devices. These devices were running Raspbian operating system. For each device the code was cross-compiled using the tools can be found [here](https://github.com/abhiTronix/raspberry-pi-cross-compilers). \
+The service was tested on a wireless ad hoc network consisted of 3 Raspberry Pi Zero W devices. These devices were running Raspbian operating system. For each device the code was cross-compiled using the tools that can be found [here](https://github.com/abhiTronix/raspberry-pi-cross-compilers). Then, the programs were transferred to the network nodes via SSH. \
 The logs that were collected for 2 hours of execution can be found [here](logs/). There is also a full [report](experiment_report/) on the results (available only in greek). 
