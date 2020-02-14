@@ -1,0 +1,3174 @@
+{
+	"sessions": [
+		{
+			"started_at": 62.450144,
+			"paired_device": 8448,
+			"messages_sent": [
+				{
+					"message": "8449_8450_1579425956_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 5.872000
+		},
+		{
+			"started_at": 62.461008,
+			"paired_device": 8450,
+			"messages_sent": [
+				{
+					"message": "8449_8450_1579425956_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 6.007000
+		},
+		{
+			"started_at": 275.481239,
+			"paired_device": 8450,
+			"messages_received": [
+				{
+					"message": "8450_8448_1579426169_Hello world",
+					"already_exists": 0
+				},
+				{
+					"message": "8448_8449_1579426169_Hello world",
+					"already_exists": 0
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 3.551000
+		},
+		{
+			"started_at": 275.491924,
+			"paired_device": 8448,
+			"messages_received": [
+				{
+					"message": "8448_8449_1579426169_Hello world",
+					"already_exists": 1
+				}
+			],
+			"messages_sent": [
+				{
+					"message": "8450_8448_1579426169_Hello world",
+					"success": 1
+				}
+			],
+			"duration_msec": 3.731000
+		},
+		{
+			"started_at": 302.156265,
+			"paired_device": 8448,
+			"messages_sent": [
+				{
+					"message": "8449_8450_1579426196_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 8.359000
+		},
+		{
+			"started_at": 302.169396,
+			"paired_device": 8450,
+			"messages_sent": [
+				{
+					"message": "8449_8450_1579426196_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 5.708000
+		},
+		{
+			"started_at": 558.589747,
+			"paired_device": 8448,
+			"messages_sent": [
+				{
+					"message": "8449_8448_1579426452_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 4.854000
+		},
+		{
+			"started_at": 558.599659,
+			"paired_device": 8450,
+			"messages_sent": [
+				{
+					"message": "8449_8448_1579426452_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 5.916000
+		},
+		{
+			"started_at": 559.029018,
+			"paired_device": 8448,
+			"messages_received": [
+				{
+					"message": "8448_8450_1579426453_Hello world",
+					"already_exists": 0
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 3.412000
+		},
+		{
+			"started_at": 559.354531,
+			"paired_device": 8450,
+			"messages_sent": [
+				{
+					"message": "8448_8450_1579426453_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+				{
+					"message": "8450_8448_1579426453_Hello world",
+					"already_exists": 0
+				}
+			],
+			"duration_msec": 6.356000
+		},
+		{
+			"started_at": 560.034994,
+			"paired_device": 8448,
+			"messages_sent": [
+				{
+					"message": "8450_8448_1579426453_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 4.611000
+		},
+		{
+			"started_at": 630.426516,
+			"paired_device": 8448,
+			"messages_received": [
+				{
+					"message": "8448_8449_1579426524_Hello world",
+					"already_exists": 0
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 3.712000
+		},
+		{
+			"started_at": 631.182421,
+			"paired_device": 8450,
+			"messages_received": [
+				{
+					"message": "8448_8449_1579426524_Hello world",
+					"already_exists": 1
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 3.264000
+		},
+		{
+			"started_at": 723.072991,
+			"paired_device": 8448,
+			"messages_sent": [
+				{
+					"message": "8449_8448_1579426617_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 5.282000
+		},
+		{
+			"started_at": 723.083144,
+			"paired_device": 8450,
+			"messages_sent": [
+				{
+					"message": "8449_8448_1579426617_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 6.938000
+		},
+		{
+			"started_at": 787.693956,
+			"paired_device": 8450,
+			"messages_received": [
+				{
+					"message": "8450_8448_1579426681_Hello world",
+					"already_exists": 0
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 3.374000
+		},
+		{
+			"started_at": 788.621168,
+			"paired_device": 8448,
+			"messages_sent": [
+				{
+					"message": "8450_8448_1579426681_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 5.525000
+		},
+		{
+			"started_at": 852.011695,
+			"paired_device": 8448,
+			"messages_sent": [
+				{
+					"message": "8449_8450_1579426746_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 7.072000
+		},
+		{
+			"started_at": 852.023533,
+			"paired_device": 8450,
+			"messages_sent": [
+				{
+					"message": "8449_8450_1579426746_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 5.646000
+		},
+		{
+			"started_at": 903.707003,
+			"paired_device": 8448,
+			"messages_received": [
+				{
+					"message": "8448_8450_1579426797_Hello world",
+					"already_exists": 0
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 3.181000
+		},
+		{
+			"started_at": 903.778292,
+			"paired_device": 8450,
+			"messages_sent": [
+				{
+					"message": "8448_8450_1579426797_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 5.932000
+		},
+		{
+			"started_at": 993.274728,
+			"paired_device": 8450,
+			"messages_received": [
+				{
+					"message": "8450_8449_1579426887_Hello world",
+					"already_exists": 0
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 3.210000
+		},
+		{
+			"started_at": 993.319751,
+			"paired_device": 8448,
+			"messages_received": [
+				{
+					"message": "8448_8450_1579426887_Hello world",
+					"already_exists": 0
+				},
+				{
+					"message": "8450_8449_1579426887_Hello world",
+					"already_exists": 1
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 3.247000
+		},
+		{
+			"started_at": 993.905763,
+			"paired_device": 8450,
+			"messages_sent": [
+				{
+					"message": "8448_8450_1579426887_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 5.725000
+		},
+		{
+			"started_at": 1016.189756,
+			"paired_device": 8448,
+			"messages_sent": [
+				{
+					"message": "8449_8450_1579426909_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 5.711000
+		},
+		{
+			"started_at": 1016.200688,
+			"paired_device": 8450,
+			"messages_sent": [
+				{
+					"message": "8449_8450_1579426909_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 9.017000
+		},
+		{
+			"started_at": 1061.056909,
+			"paired_device": 8448,
+			"messages_received": [
+				{
+					"message": "8448_8449_1579426955_Hello world",
+					"already_exists": 0
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 2.789000
+		},
+		{
+			"started_at": 1061.491264,
+			"paired_device": 8450,
+			"messages_received": [
+				{
+					"message": "8448_8449_1579426955_Hello world",
+					"already_exists": 1
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 3.123000
+		},
+		{
+			"started_at": 1142.158232,
+			"paired_device": 8448,
+			"messages_received": [
+				{
+					"message": "8448_8449_1579427036_Hello world",
+					"already_exists": 0
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 3.300000
+		},
+		{
+			"started_at": 1142.260679,
+			"paired_device": 8450,
+			"messages_received": [
+				{
+					"message": "8448_8449_1579427036_Hello world",
+					"already_exists": 1
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 3.246000
+		},
+		{
+			"started_at": 1158.569024,
+			"paired_device": 8450,
+			"messages_received": [
+				{
+					"message": "8450_8449_1579427052_Hello world",
+					"already_exists": 0
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 3.615000
+		},
+		{
+			"started_at": 1158.755717,
+			"paired_device": 8448,
+			"messages_received": [
+				{
+					"message": "8450_8449_1579427052_Hello world",
+					"already_exists": 1
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 3.416000
+		},
+		{
+			"started_at": 1206.333558,
+			"paired_device": 8448,
+			"messages_sent": [
+				{
+					"message": "8449_8450_1579427100_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 5.117000
+		},
+		{
+			"started_at": 1206.344304,
+			"paired_device": 8450,
+			"messages_sent": [
+				{
+					"message": "8449_8450_1579427100_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 5.190000
+		},
+		{
+			"started_at": 1269.498754,
+			"paired_device": 8448,
+			"messages_received": [
+				{
+					"message": "8448_8449_1579427163_Hello world",
+					"already_exists": 0
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 2.919000
+		},
+		{
+			"started_at": 1270.141439,
+			"paired_device": 8450,
+			"messages_received": [
+				{
+					"message": "8448_8449_1579427163_Hello world",
+					"already_exists": 1
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 3.262000
+		},
+		{
+			"started_at": 1282.705283,
+			"paired_device": 8450,
+			"messages_received": [
+				{
+					"message": "8450_8448_1579427176_Hello world",
+					"already_exists": 0
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 3.362000
+		},
+		{
+			"started_at": 1283.239947,
+			"paired_device": 8448,
+			"messages_sent": [
+				{
+					"message": "8450_8448_1579427176_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 6.385000
+		},
+		{
+			"started_at": 1408.088453,
+			"paired_device": 8448,
+			"messages_sent": [
+				{
+					"message": "8449_8448_1579427302_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 8.502000
+		},
+		{
+			"started_at": 1408.101817,
+			"paired_device": 8450,
+			"messages_sent": [
+				{
+					"message": "8449_8448_1579427302_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 5.690000
+		},
+		{
+			"started_at": 1466.507455,
+			"paired_device": 8450,
+			"messages_received": [
+				{
+					"message": "8450_8448_1579427360_Hello world",
+					"already_exists": 0
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 4.162000
+		},
+		{
+			"started_at": 1467.088481,
+			"paired_device": 8448,
+			"messages_sent": [
+				{
+					"message": "8450_8448_1579427360_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 26.394000
+		},
+		{
+			"started_at": 1508.556768,
+			"paired_device": 8448,
+			"messages_received": [
+				{
+					"message": "8448_8450_1579427402_Hello world",
+					"already_exists": 0
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 3.675000
+		},
+		{
+			"started_at": 1508.943123,
+			"paired_device": 8450,
+			"messages_sent": [
+				{
+					"message": "8448_8450_1579427402_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 5.302000
+		},
+		{
+			"started_at": 1556.383215,
+			"paired_device": 8450,
+			"messages_received": [
+				{
+					"message": "8450_8448_1579427450_Hello world",
+					"already_exists": 0
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 3.619000
+		},
+		{
+			"started_at": 1556.844528,
+			"paired_device": 8448,
+			"messages_sent": [
+				{
+					"message": "8450_8448_1579427450_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 5.254000
+		},
+		{
+			"started_at": 1592.303727,
+			"paired_device": 8448,
+			"messages_sent": [
+				{
+					"message": "8449_8448_1579427486_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 10.272000
+		},
+		{
+			"started_at": 1592.320241,
+			"paired_device": 8450,
+			"messages_sent": [
+				{
+					"message": "8449_8448_1579427486_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 5.981000
+		},
+		{
+			"started_at": 1679.458054,
+			"paired_device": 8448,
+			"messages_received": [
+				{
+					"message": "8448_8449_1579427573_Hello world",
+					"already_exists": 0
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 5.800000
+		},
+		{
+			"started_at": 1679.765625,
+			"paired_device": 8450,
+			"messages_received": [
+				{
+					"message": "8448_8449_1579427573_Hello world",
+					"already_exists": 1
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 5.480000
+		},
+		{
+			"started_at": 1711.239539,
+			"paired_device": 8450,
+			"messages_received": [
+				{
+					"message": "8450_8448_1579427605_Hello world",
+					"already_exists": 0
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 2.948000
+		},
+		{
+			"started_at": 1711.738773,
+			"paired_device": 8448,
+			"messages_sent": [
+				{
+					"message": "8450_8448_1579427605_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 5.241000
+		},
+		{
+			"started_at": 1787.201286,
+			"paired_device": 8450,
+			"messages_received": [
+				{
+					"message": "8450_8449_1579427681_Hello world",
+					"already_exists": 0
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 3.298000
+		},
+		{
+			"started_at": 1787.461205,
+			"paired_device": 8448,
+			"messages_received": [
+				{
+					"message": "8450_8449_1579427681_Hello world",
+					"already_exists": 1
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 4.771000
+		},
+		{
+			"started_at": 1852.546337,
+			"paired_device": 8448,
+			"messages_sent": [
+				{
+					"message": "8449_8450_1579427746_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 5.264000
+		},
+		{
+			"started_at": 1852.556464,
+			"paired_device": 8450,
+			"messages_sent": [
+				{
+					"message": "8449_8450_1579427746_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 5.655000
+		},
+		{
+			"started_at": 1925.261558,
+			"paired_device": 8448,
+			"messages_received": [
+				{
+					"message": "8448_8449_1579427819_Hello world",
+					"already_exists": 0
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 3.081000
+		},
+		{
+			"started_at": 1925.963876,
+			"paired_device": 8450,
+			"messages_received": [
+				{
+					"message": "8448_8449_1579427819_Hello world",
+					"already_exists": 1
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 3.652000
+		},
+		{
+			"started_at": 1970.163557,
+			"paired_device": 8450,
+			"messages_received": [
+				{
+					"message": "8450_8449_1579427864_Hello world",
+					"already_exists": 0
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 10.552000
+		},
+		{
+			"started_at": 1970.820098,
+			"paired_device": 8448,
+			"messages_received": [
+				{
+					"message": "8450_8449_1579427864_Hello world",
+					"already_exists": 1
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 3.655000
+		},
+		{
+			"started_at": 2023.038951,
+			"paired_device": 8448,
+			"messages_sent": [
+				{
+					"message": "8449_8448_1579427917_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 5.163000
+		},
+		{
+			"started_at": 2023.049092,
+			"paired_device": 8450,
+			"messages_sent": [
+				{
+					"message": "8449_8448_1579427917_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 5.649000
+		},
+		{
+			"started_at": 2031.196383,
+			"paired_device": 8448,
+			"messages_received": [
+				{
+					"message": "8448_8449_1579427925_Hello world",
+					"already_exists": 0
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 8.615000
+		},
+		{
+			"started_at": 2031.361066,
+			"paired_device": 8450,
+			"messages_received": [
+				{
+					"message": "8448_8449_1579427925_Hello world",
+					"already_exists": 1
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 5.630000
+		},
+		{
+			"started_at": 2142.387395,
+			"paired_device": 8450,
+			"messages_received": [
+				{
+					"message": "8450_8448_1579428036_Hello world",
+					"already_exists": 0
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 3.015000
+		},
+		{
+			"started_at": 2142.669709,
+			"paired_device": 8448,
+			"messages_sent": [
+				{
+					"message": "8450_8448_1579428036_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 7.745000
+		},
+		{
+			"started_at": 2243.477462,
+			"paired_device": 8450,
+			"messages_received": [
+				{
+					"message": "8450_8449_1579428137_Hello world",
+					"already_exists": 0
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 8.655000
+		},
+		{
+			"started_at": 2243.884093,
+			"paired_device": 8448,
+			"messages_received": [
+				{
+					"message": "8450_8449_1579428137_Hello world",
+					"already_exists": 1
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 12.761000
+		},
+		{
+			"started_at": 2275.041483,
+			"paired_device": 8448,
+			"messages_received": [
+				{
+					"message": "8448_8450_1579428169_Hello world",
+					"already_exists": 0
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 3.445000
+		},
+		{
+			"started_at": 2275.253908,
+			"paired_device": 8450,
+			"messages_sent": [
+				{
+					"message": "8448_8450_1579428169_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 5.034000
+		},
+		{
+			"started_at": 2310.150083,
+			"paired_device": 8448,
+			"messages_sent": [
+				{
+					"message": "8449_8448_1579428204_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 6.815000
+		},
+		{
+			"started_at": 2310.161895,
+			"paired_device": 8450,
+			"messages_sent": [
+				{
+					"message": "8449_8448_1579428204_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 5.225000
+		},
+		{
+			"started_at": 2418.930804,
+			"paired_device": 8448,
+			"messages_received": [
+				{
+					"message": "8448_8450_1579428312_Hello world",
+					"already_exists": 0
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 3.330000
+		},
+		{
+			"started_at": 2419.754896,
+			"paired_device": 8450,
+			"messages_sent": [
+				{
+					"message": "8448_8450_1579428312_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 5.366000
+		},
+		{
+			"started_at": 2425.654378,
+			"paired_device": 8450,
+			"messages_received": [
+				{
+					"message": "8450_8448_1579428319_Hello world",
+					"already_exists": 0
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 3.422000
+		},
+		{
+			"started_at": 2426.423553,
+			"paired_device": 8448,
+			"messages_sent": [
+				{
+					"message": "8450_8448_1579428319_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 7.204000
+		},
+		{
+			"started_at": 2440.190299,
+			"paired_device": 8448,
+			"messages_sent": [
+				{
+					"message": "8449_8448_1579428334_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 9.475000
+		},
+		{
+			"started_at": 2440.204559,
+			"paired_device": 8450,
+			"messages_sent": [
+				{
+					"message": "8449_8448_1579428334_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 5.664000
+		},
+		{
+			"started_at": 2548.163868,
+			"paired_device": 8448,
+			"messages_received": [
+				{
+					"message": "8448_8450_1579428442_Hello world",
+					"already_exists": 0
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 3.414000
+		},
+		{
+			"started_at": 2548.420754,
+			"paired_device": 8450,
+			"messages_sent": [
+				{
+					"message": "8448_8450_1579428442_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 7.688000
+		},
+		{
+			"started_at": 2565.519438,
+			"paired_device": 8450,
+			"messages_received": [
+				{
+					"message": "8450_8449_1579428459_Hello world",
+					"already_exists": 0
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 3.180000
+		},
+		{
+			"started_at": 2565.891613,
+			"paired_device": 8448,
+			"messages_received": [
+				{
+					"message": "8450_8449_1579428459_Hello world",
+					"already_exists": 1
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 3.145000
+		},
+		{
+			"started_at": 2631.406065,
+			"paired_device": 8448,
+			"messages_sent": [
+				{
+					"message": "8449_8450_1579428525_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 5.119000
+		},
+		{
+			"started_at": 2631.416231,
+			"paired_device": 8450,
+			"messages_sent": [
+				{
+					"message": "8449_8450_1579428525_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 5.342000
+		},
+		{
+			"started_at": 2644.198668,
+			"paired_device": 8450,
+			"messages_received": [
+				{
+					"message": "8450_8448_1579428538_Hello world",
+					"already_exists": 0
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 3.292000
+		},
+		{
+			"started_at": 2644.634919,
+			"paired_device": 8448,
+			"messages_sent": [
+				{
+					"message": "8450_8448_1579428538_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 5.625000
+		},
+		{
+			"started_at": 2692.285600,
+			"paired_device": 8448,
+			"messages_sent": [
+				{
+					"message": "8449_8450_1579428586_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 5.534000
+		},
+		{
+			"started_at": 2692.295899,
+			"paired_device": 8450,
+			"messages_sent": [
+				{
+					"message": "8449_8450_1579428586_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 14.907000
+		},
+		{
+			"started_at": 2770.479992,
+			"paired_device": 8448,
+			"messages_received": [
+				{
+					"message": "8448_8449_1579428664_Hello world",
+					"already_exists": 0
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 5.460000
+		},
+		{
+			"started_at": 2770.707361,
+			"paired_device": 8450,
+			"messages_received": [
+				{
+					"message": "8448_8449_1579428664_Hello world",
+					"already_exists": 1
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 2.621000
+		},
+		{
+			"started_at": 2802.101567,
+			"paired_device": 8450,
+			"messages_received": [
+				{
+					"message": "8450_8449_1579428696_Hello world",
+					"already_exists": 0
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 5.697000
+		},
+		{
+			"started_at": 2802.650720,
+			"paired_device": 8448,
+			"messages_received": [
+				{
+					"message": "8450_8449_1579428696_Hello world",
+					"already_exists": 1
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 5.368000
+		},
+		{
+			"started_at": 2882.859822,
+			"paired_device": 8448,
+			"messages_sent": [
+				{
+					"message": "8449_8448_1579428776_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 5.148000
+		},
+		{
+			"started_at": 2882.875453,
+			"paired_device": 8450,
+			"messages_sent": [
+				{
+					"message": "8449_8448_1579428776_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 7.725000
+		},
+		{
+			"started_at": 2917.576906,
+			"paired_device": 8450,
+			"messages_received": [
+				{
+					"message": "8450_8448_1579428811_Hello world",
+					"already_exists": 0
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 3.591000
+		},
+		{
+			"started_at": 2917.727133,
+			"paired_device": 8448,
+			"messages_sent": [
+				{
+					"message": "8450_8448_1579428811_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 5.219000
+		},
+		{
+			"started_at": 3062.653092,
+			"paired_device": 8448,
+			"messages_received": [
+				{
+					"message": "8448_8450_1579428956_Hello world",
+					"already_exists": 0
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 3.786000
+		},
+		{
+			"started_at": 3063.463528,
+			"paired_device": 8450,
+			"messages_sent": [
+				{
+					"message": "8448_8450_1579428956_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 7.846000
+		},
+		{
+			"started_at": 3067.512172,
+			"paired_device": 8448,
+			"messages_sent": [
+				{
+					"message": "8449_8450_1579428961_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 5.579000
+		},
+		{
+			"started_at": 3067.522515,
+			"paired_device": 8450,
+			"messages_sent": [
+				{
+					"message": "8449_8450_1579428961_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 6.122000
+		},
+		{
+			"started_at": 3132.369797,
+			"paired_device": 8448,
+			"messages_received": [
+				{
+					"message": "8448_8450_1579429026_Hello world",
+					"already_exists": 0
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 3.368000
+		},
+		{
+			"started_at": 3132.597559,
+			"paired_device": 8450,
+			"messages_sent": [
+				{
+					"message": "8448_8450_1579429026_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 5.750000
+		},
+		{
+			"started_at": 3204.223381,
+			"paired_device": 8450,
+			"messages_received": [
+				{
+					"message": "8450_8449_1579429098_Hello world",
+					"already_exists": 0
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 3.299000
+		},
+		{
+			"started_at": 3204.654957,
+			"paired_device": 8448,
+			"messages_received": [
+				{
+					"message": "8450_8449_1579429098_Hello world",
+					"already_exists": 1
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 3.319000
+		},
+		{
+			"started_at": 3205.452430,
+			"paired_device": 8448,
+			"messages_sent": [
+				{
+					"message": "8449_8450_1579429099_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 6.860000
+		},
+		{
+			"started_at": 3205.464246,
+			"paired_device": 8450,
+			"messages_sent": [
+				{
+					"message": "8449_8450_1579429099_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 5.678000
+		},
+		{
+			"started_at": 3241.273535,
+			"paired_device": 8448,
+			"messages_received": [
+				{
+					"message": "8448_8450_1579429135_Hello world",
+					"already_exists": 0
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 9.415000
+		},
+		{
+			"started_at": 3241.300719,
+			"paired_device": 8450,
+			"messages_sent": [
+				{
+					"message": "8448_8450_1579429135_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 6.448000
+		},
+		{
+			"started_at": 3299.124722,
+			"paired_device": 8448,
+			"messages_sent": [
+				{
+					"message": "8449_8448_1579429193_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 12.734000
+		},
+		{
+			"started_at": 3299.143719,
+			"paired_device": 8450,
+			"messages_sent": [
+				{
+					"message": "8449_8448_1579429193_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 6.496000
+		},
+		{
+			"started_at": 3410.107111,
+			"paired_device": 8448,
+			"messages_received": [
+				{
+					"message": "8448_8450_1579429304_Hello world",
+					"already_exists": 0
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 2.500000
+		},
+		{
+			"started_at": 3410.797268,
+			"paired_device": 8450,
+			"messages_sent": [
+				{
+					"message": "8448_8450_1579429304_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 5.679000
+		},
+		{
+			"started_at": 3493.075444,
+			"paired_device": 8450,
+			"messages_received": [
+				{
+					"message": "8450_8448_1579429387_Hello world",
+					"already_exists": 0
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 8.980000
+		},
+		{
+			"started_at": 3493.115658,
+			"paired_device": 8448,
+			"messages_sent": [
+				{
+					"message": "8450_8448_1579429387_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 5.216000
+		},
+		{
+			"started_at": 3579.085367,
+			"paired_device": 8448,
+			"messages_received": [
+				{
+					"message": "8448_8449_1579429473_Hello world",
+					"already_exists": 0
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 3.380000
+		},
+		{
+			"started_at": 3579.184095,
+			"paired_device": 8450,
+			"messages_received": [
+				{
+					"message": "8448_8449_1579429473_Hello world",
+					"already_exists": 1
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 19.094000
+		},
+		{
+			"started_at": 3596.964145,
+			"paired_device": 8448,
+			"messages_sent": [
+				{
+					"message": "8449_8450_1579429490_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 8.021000
+		},
+		{
+			"started_at": 3596.976970,
+			"paired_device": 8450,
+			"messages_sent": [
+				{
+					"message": "8449_8450_1579429490_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 5.691000
+		},
+		{
+			"started_at": 3733.644328,
+			"paired_device": 8448,
+			"messages_received": [
+				{
+					"message": "8448_8450_1579429627_Hello world",
+					"already_exists": 0
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 3.245000
+		},
+		{
+			"started_at": 3734.039019,
+			"paired_device": 8448,
+			"messages_sent": [
+				{
+					"message": "8449_8448_1579429628_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 5.212000
+		},
+		{
+			"started_at": 3734.049217,
+			"paired_device": 8450,
+			"messages_sent": [
+				{
+					"message": "8448_8450_1579429627_Hello world",
+					"success": 1
+				},
+				{
+					"message": "8449_8448_1579429628_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 5.493000
+		},
+		{
+			"started_at": 3749.270897,
+			"paired_device": 8450,
+			"messages_received": [
+				{
+					"message": "8450_8449_1579429643_Hello world",
+					"already_exists": 0
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 3.653000
+		},
+		{
+			"started_at": 3750.008308,
+			"paired_device": 8448,
+			"messages_received": [
+				{
+					"message": "8450_8449_1579429643_Hello world",
+					"already_exists": 1
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 3.819000
+		},
+		{
+			"started_at": 3830.457933,
+			"paired_device": 8450,
+			"messages_received": [
+				{
+					"message": "8450_8448_1579429724_Hello world",
+					"already_exists": 0
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 3.044000
+		},
+		{
+			"started_at": 3830.602288,
+			"paired_device": 8448,
+			"messages_sent": [
+				{
+					"message": "8450_8448_1579429724_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 7.943000
+		},
+		{
+			"started_at": 3932.811147,
+			"paired_device": 8448,
+			"messages_sent": [
+				{
+					"message": "8449_8448_1579429826_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 8.000000
+		},
+		{
+			"started_at": 3932.824017,
+			"paired_device": 8450,
+			"messages_sent": [
+				{
+					"message": "8449_8448_1579429826_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 8.829000
+		},
+		{
+			"started_at": 3934.576694,
+			"paired_device": 8448,
+			"messages_received": [
+				{
+					"message": "8448_8450_1579429828_Hello world",
+					"already_exists": 0
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 42.593000
+		},
+		{
+			"started_at": 3935.175286,
+			"paired_device": 8450,
+			"messages_sent": [
+				{
+					"message": "8448_8450_1579429828_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+				{
+					"message": "8450_8448_1579429829_Hello world",
+					"already_exists": 0
+				}
+			],
+			"duration_msec": 29.263000
+		},
+		{
+			"started_at": 3936.051578,
+			"paired_device": 8448,
+			"messages_sent": [
+				{
+					"message": "8450_8448_1579429829_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 14.147000
+		},
+		{
+			"started_at": 4010.442888,
+			"paired_device": 8448,
+			"messages_received": [
+				{
+					"message": "8448_8449_1579429904_Hello world",
+					"already_exists": 0
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 3.529000
+		},
+		{
+			"started_at": 4010.590882,
+			"paired_device": 8450,
+			"messages_received": [
+				{
+					"message": "8448_8449_1579429904_Hello world",
+					"already_exists": 1
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 3.341000
+		},
+		{
+			"started_at": 4020.778386,
+			"paired_device": 8448,
+			"messages_sent": [
+				{
+					"message": "8449_8450_1579429914_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 5.572000
+		},
+		{
+			"started_at": 4020.788785,
+			"paired_device": 8450,
+			"messages_sent": [
+				{
+					"message": "8449_8450_1579429914_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 5.775000
+		},
+		{
+			"started_at": 4078.515848,
+			"paired_device": 8448,
+			"messages_received": [
+				{
+					"message": "8448_8449_1579429972_Hello world",
+					"already_exists": 0
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 3.511000
+		},
+		{
+			"started_at": 4078.920759,
+			"paired_device": 8450,
+			"messages_received": [
+				{
+					"message": "8448_8449_1579429972_Hello world",
+					"already_exists": 1
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 8.365000
+		},
+		{
+			"started_at": 4229.051306,
+			"paired_device": 8448,
+			"messages_received": [
+				{
+					"message": "8448_8449_1579430123_Hello world",
+					"already_exists": 0
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 4.061000
+		},
+		{
+			"started_at": 4229.578346,
+			"paired_device": 8450,
+			"messages_received": [
+				{
+					"message": "8448_8449_1579430123_Hello world",
+					"already_exists": 1
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 6.714000
+		},
+		{
+			"started_at": 4232.449228,
+			"paired_device": 8450,
+			"messages_received": [
+				{
+					"message": "8450_8448_1579430126_Hello world",
+					"already_exists": 0
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 7.101000
+		},
+		{
+			"started_at": 4232.948781,
+			"paired_device": 8448,
+			"messages_sent": [
+				{
+					"message": "8450_8448_1579430126_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 5.386000
+		},
+		{
+			"started_at": 4259.570201,
+			"paired_device": 8448,
+			"messages_sent": [
+				{
+					"message": "8449_8450_1579430153_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 5.251000
+		},
+		{
+			"started_at": 4259.580649,
+			"paired_device": 8450,
+			"messages_sent": [
+				{
+					"message": "8449_8450_1579430153_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 5.847000
+		},
+		{
+			"started_at": 4368.174172,
+			"paired_device": 8450,
+			"messages_received": [
+				{
+					"message": "8450_8448_1579430262_Hello world",
+					"already_exists": 0
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 3.159000
+		},
+		{
+			"started_at": 4368.538631,
+			"paired_device": 8448,
+			"messages_sent": [
+				{
+					"message": "8450_8448_1579430262_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 5.060000
+		},
+		{
+			"started_at": 4370.019684,
+			"paired_device": 8448,
+			"messages_received": [
+				{
+					"message": "8448_8449_1579430264_Hello world",
+					"already_exists": 0
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 4.348000
+		},
+		{
+			"started_at": 4370.429378,
+			"paired_device": 8450,
+			"messages_received": [
+				{
+					"message": "8448_8449_1579430264_Hello world",
+					"already_exists": 1
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 3.211000
+		},
+		{
+			"started_at": 4371.689928,
+			"paired_device": 8448,
+			"messages_sent": [
+				{
+					"message": "8449_8448_1579430265_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 5.809000
+		},
+		{
+			"started_at": 4371.700383,
+			"paired_device": 8450,
+			"messages_sent": [
+				{
+					"message": "8449_8448_1579430265_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 5.307000
+		},
+		{
+			"started_at": 4517.539800,
+			"paired_device": 8448,
+			"messages_sent": [
+				{
+					"message": "8449_8450_1579430411_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 9.929000
+		},
+		{
+			"started_at": 4517.554848,
+			"paired_device": 8450,
+			"messages_sent": [
+				{
+					"message": "8449_8450_1579430411_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 5.877000
+		},
+		{
+			"started_at": 4603.420430,
+			"paired_device": 8448,
+			"messages_received": [
+				{
+					"message": "8448_8449_1579430497_Hello world",
+					"already_exists": 0
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 3.402000
+		},
+		{
+			"started_at": 4603.935532,
+			"paired_device": 8450,
+			"messages_received": [
+				{
+					"message": "8448_8449_1579430497_Hello world",
+					"already_exists": 1
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 3.355000
+		},
+		{
+			"started_at": 4658.794969,
+			"paired_device": 8450,
+			"messages_received": [
+				{
+					"message": "8450_8448_1579430552_Hello world",
+					"already_exists": 0
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 3.018000
+		},
+		{
+			"started_at": 4659.416647,
+			"paired_device": 8448,
+			"messages_sent": [
+				{
+					"message": "8450_8448_1579430552_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 5.469000
+		},
+		{
+			"started_at": 4688.778521,
+			"paired_device": 8448,
+			"messages_sent": [
+				{
+					"message": "8449_8448_1579430582_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 5.368000
+		},
+		{
+			"started_at": 4688.789092,
+			"paired_device": 8450,
+			"messages_sent": [
+				{
+					"message": "8449_8448_1579430582_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 5.819000
+		},
+		{
+			"started_at": 4728.811561,
+			"paired_device": 8450,
+			"messages_received": [
+				{
+					"message": "8450_8448_1579430622_Hello world",
+					"already_exists": 0
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 2.923000
+		},
+		{
+			"started_at": 4728.967645,
+			"paired_device": 8448,
+			"messages_sent": [
+				{
+					"message": "8450_8448_1579430622_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 4.882000
+		},
+		{
+			"started_at": 4761.282655,
+			"paired_device": 8448,
+			"messages_received": [
+				{
+					"message": "8448_8449_1579430655_Hello world",
+					"already_exists": 0
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 3.446000
+		},
+		{
+			"started_at": 4761.792013,
+			"paired_device": 8450,
+			"messages_received": [
+				{
+					"message": "8448_8449_1579430655_Hello world",
+					"already_exists": 1
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 3.460000
+		},
+		{
+			"started_at": 4886.678642,
+			"paired_device": 8448,
+			"messages_sent": [
+				{
+					"message": "8449_8448_1579430780_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 5.318000
+		},
+		{
+			"started_at": 4886.688893,
+			"paired_device": 8450,
+			"messages_sent": [
+				{
+					"message": "8449_8448_1579430780_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 10.524000
+		},
+		{
+			"started_at": 4955.845639,
+			"paired_device": 8450,
+			"messages_received": [
+				{
+					"message": "8450_8448_1579430849_Hello world",
+					"already_exists": 0
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 3.675000
+		},
+		{
+			"started_at": 4956.228364,
+			"paired_device": 8448,
+			"messages_sent": [
+				{
+					"message": "8450_8448_1579430849_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 8.311000
+		},
+		{
+			"started_at": 4974.744907,
+			"paired_device": 8448,
+			"messages_received": [
+				{
+					"message": "8448_8449_1579430868_Hello world",
+					"already_exists": 0
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 7.944000
+		},
+		{
+			"started_at": 4975.059401,
+			"paired_device": 8450,
+			"messages_received": [
+				{
+					"message": "8448_8449_1579430868_Hello world",
+					"already_exists": 1
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 3.330000
+		},
+		{
+			"started_at": 5083.860160,
+			"paired_device": 8450,
+			"messages_received": [
+				{
+					"message": "8450_8448_1579430977_Hello world",
+					"already_exists": 0
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 3.548000
+		},
+		{
+			"started_at": 5084.054294,
+			"paired_device": 8448,
+			"messages_sent": [
+				{
+					"message": "8450_8448_1579430977_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 5.203000
+		},
+		{
+			"started_at": 5142.518654,
+			"paired_device": 8448,
+			"messages_sent": [
+				{
+					"message": "8449_8448_1579431036_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 5.271000
+		},
+		{
+			"started_at": 5142.528895,
+			"paired_device": 8450,
+			"messages_sent": [
+				{
+					"message": "8449_8448_1579431036_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 6.076000
+		},
+		{
+			"started_at": 5218.195386,
+			"paired_device": 8448,
+			"messages_received": [
+				{
+					"message": "8448_8449_1579431112_Hello world",
+					"already_exists": 0
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 4.171000
+		},
+		{
+			"started_at": 5218.416174,
+			"paired_device": 8450,
+			"messages_received": [
+				{
+					"message": "8448_8449_1579431112_Hello world",
+					"already_exists": 1
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 2.938000
+		},
+		{
+			"started_at": 5226.508016,
+			"paired_device": 8448,
+			"messages_sent": [
+				{
+					"message": "8449_8450_1579431120_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 5.378000
+		},
+		{
+			"started_at": 5226.518492,
+			"paired_device": 8450,
+			"messages_sent": [
+				{
+					"message": "8449_8450_1579431120_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 5.680000
+		},
+		{
+			"started_at": 5294.395304,
+			"paired_device": 8448,
+			"messages_received": [
+				{
+					"message": "8448_8450_1579431188_Hello world",
+					"already_exists": 0
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 3.630000
+		},
+		{
+			"started_at": 5294.874454,
+			"paired_device": 8450,
+			"messages_sent": [
+				{
+					"message": "8448_8450_1579431188_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 10.521000
+		},
+		{
+			"started_at": 5346.393590,
+			"paired_device": 8450,
+			"messages_received": [
+				{
+					"message": "8450_8449_1579431240_Hello world",
+					"already_exists": 0
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 3.124000
+		},
+		{
+			"started_at": 5346.665212,
+			"paired_device": 8448,
+			"messages_received": [
+				{
+					"message": "8450_8449_1579431240_Hello world",
+					"already_exists": 1
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 3.212000
+		},
+		{
+			"started_at": 5422.628747,
+			"paired_device": 8450,
+			"messages_received": [
+				{
+					"message": "8450_8449_1579431316_Hello world",
+					"already_exists": 0
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 3.148000
+		},
+		{
+			"started_at": 5423.195704,
+			"paired_device": 8448,
+			"messages_received": [
+				{
+					"message": "8450_8449_1579431316_Hello world",
+					"already_exists": 1
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 3.375000
+		},
+		{
+			"started_at": 5449.054704,
+			"paired_device": 8448,
+			"messages_received": [
+				{
+					"message": "8448_8449_1579431343_Hello world",
+					"already_exists": 0
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 3.737000
+		},
+		{
+			"started_at": 5449.230425,
+			"paired_device": 8450,
+			"messages_received": [
+				{
+					"message": "8448_8449_1579431343_Hello world",
+					"already_exists": 1
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 3.400000
+		},
+		{
+			"started_at": 5485.377055,
+			"paired_device": 8448,
+			"messages_sent": [
+				{
+					"message": "8449_8448_1579431379_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 5.084000
+		},
+		{
+			"started_at": 5485.387207,
+			"paired_device": 8450,
+			"messages_sent": [
+				{
+					"message": "8449_8448_1579431379_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 5.758000
+		},
+		{
+			"started_at": 5514.394019,
+			"paired_device": 8448,
+			"messages_received": [
+				{
+					"message": "8448_8449_1579431408_Hello world",
+					"already_exists": 0
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 3.398000
+		},
+		{
+			"started_at": 5514.761516,
+			"paired_device": 8450,
+			"messages_received": [
+				{
+					"message": "8448_8449_1579431408_Hello world",
+					"already_exists": 1
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 3.515000
+		},
+		{
+			"started_at": 5551.407383,
+			"paired_device": 8450,
+			"messages_received": [
+				{
+					"message": "8450_8449_1579431445_Hello world",
+					"already_exists": 0
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 3.747000
+		},
+		{
+			"started_at": 5551.871799,
+			"paired_device": 8448,
+			"messages_received": [
+				{
+					"message": "8450_8449_1579431445_Hello world",
+					"already_exists": 1
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 3.345000
+		},
+		{
+			"started_at": 5633.836237,
+			"paired_device": 8450,
+			"messages_received": [
+				{
+					"message": "8450_8448_1579431527_Hello world",
+					"already_exists": 0
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 3.761000
+		},
+		{
+			"started_at": 5634.214224,
+			"paired_device": 8448,
+			"messages_sent": [
+				{
+					"message": "8450_8448_1579431527_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 5.265000
+		},
+		{
+			"started_at": 5693.122431,
+			"paired_device": 8448,
+			"messages_sent": [
+				{
+					"message": "8449_8450_1579431587_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 5.308000
+		},
+		{
+			"started_at": 5693.132638,
+			"paired_device": 8450,
+			"messages_sent": [
+				{
+					"message": "8449_8450_1579431587_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 5.784000
+		},
+		{
+			"started_at": 5775.019185,
+			"paired_device": 8448,
+			"messages_received": [
+				{
+					"message": "8448_8449_1579431669_Hello world",
+					"already_exists": 0
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 6.011000
+		},
+		{
+			"started_at": 5775.797638,
+			"paired_device": 8450,
+			"messages_received": [
+				{
+					"message": "8448_8449_1579431669_Hello world",
+					"already_exists": 1
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 3.082000
+		},
+		{
+			"started_at": 5777.531404,
+			"paired_device": 8450,
+			"messages_received": [
+				{
+					"message": "8450_8448_1579431671_Hello world",
+					"already_exists": 0
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 3.359000
+		},
+		{
+			"started_at": 5778.360885,
+			"paired_device": 8448,
+			"messages_sent": [
+				{
+					"message": "8450_8448_1579431671_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 9.473000
+		},
+		{
+			"started_at": 5833.376283,
+			"paired_device": 8448,
+			"messages_sent": [
+				{
+					"message": "8449_8450_1579431727_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 5.685000
+		},
+		{
+			"started_at": 5833.386761,
+			"paired_device": 8450,
+			"messages_sent": [
+				{
+					"message": "8449_8450_1579431727_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 8.789000
+		},
+		{
+			"started_at": 5836.493516,
+			"paired_device": 8448,
+			"messages_received": [
+				{
+					"message": "8448_8450_1579431730_Hello world",
+					"already_exists": 0
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 3.707000
+		},
+		{
+			"started_at": 5836.797985,
+			"paired_device": 8450,
+			"messages_sent": [
+				{
+					"message": "8448_8450_1579431730_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 5.153000
+		},
+		{
+			"started_at": 5838.482033,
+			"paired_device": 8450,
+			"messages_received": [
+				{
+					"message": "8450_8448_1579431732_Hello world",
+					"already_exists": 0
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 3.412000
+		},
+		{
+			"started_at": 5839.100399,
+			"paired_device": 8448,
+			"messages_sent": [
+				{
+					"message": "8450_8448_1579431732_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 5.302000
+		},
+		{
+			"started_at": 5979.433706,
+			"paired_device": 8448,
+			"messages_received": [
+				{
+					"message": "8448_8449_1579431873_Hello world",
+					"already_exists": 0
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 10.901000
+		},
+		{
+			"started_at": 5979.973702,
+			"paired_device": 8450,
+			"messages_received": [
+				{
+					"message": "8448_8449_1579431873_Hello world",
+					"already_exists": 1
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 3.286000
+		},
+		{
+			"started_at": 6012.573281,
+			"paired_device": 8448,
+			"messages_sent": [
+				{
+					"message": "8449_8448_1579431906_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 5.531000
+		},
+		{
+			"started_at": 6012.583881,
+			"paired_device": 8450,
+			"messages_sent": [
+				{
+					"message": "8449_8448_1579431906_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 5.848000
+		},
+		{
+			"started_at": 6076.852583,
+			"paired_device": 8450,
+			"messages_received": [
+				{
+					"message": "8450_8448_1579431970_Hello world",
+					"already_exists": 0
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 3.485000
+		},
+		{
+			"started_at": 6076.860002,
+			"paired_device": 8448,
+			"messages_sent": [
+				{
+					"message": "8450_8448_1579431970_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 9.791000
+		},
+		{
+			"started_at": 6157.330080,
+			"paired_device": 8448,
+			"messages_sent": [
+				{
+					"message": "8449_8448_1579432051_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 4.997000
+		},
+		{
+			"started_at": 6157.340203,
+			"paired_device": 8450,
+			"messages_sent": [
+				{
+					"message": "8449_8448_1579432051_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 6.169000
+		},
+		{
+			"started_at": 6274.112691,
+			"paired_device": 8448,
+			"messages_received": [
+				{
+					"message": "8448_8450_1579432168_Hello world",
+					"already_exists": 0
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 3.674000
+		},
+		{
+			"started_at": 6274.520166,
+			"paired_device": 8450,
+			"messages_sent": [
+				{
+					"message": "8448_8450_1579432168_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 5.805000
+		},
+		{
+			"started_at": 6312.597328,
+			"paired_device": 8450,
+			"messages_received": [
+				{
+					"message": "8450_8448_1579432206_Hello world",
+					"already_exists": 0
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 3.606000
+		},
+		{
+			"started_at": 6313.053149,
+			"paired_device": 8448,
+			"messages_sent": [
+				{
+					"message": "8450_8448_1579432206_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 5.751000
+		},
+		{
+			"started_at": 6389.137036,
+			"paired_device": 8450,
+			"messages_received": [
+				{
+					"message": "8450_8449_1579432283_Hello world",
+					"already_exists": 0
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 3.452000
+		},
+		{
+			"started_at": 6389.565472,
+			"paired_device": 8448,
+			"messages_received": [
+				{
+					"message": "8450_8449_1579432283_Hello world",
+					"already_exists": 1
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 3.665000
+		},
+		{
+			"started_at": 6424.753396,
+			"paired_device": 8448,
+			"messages_sent": [
+				{
+					"message": "8449_8450_1579432318_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 5.082000
+		},
+		{
+			"started_at": 6424.763448,
+			"paired_device": 8450,
+			"messages_sent": [
+				{
+					"message": "8449_8450_1579432318_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 10.095000
+		},
+		{
+			"started_at": 6429.857977,
+			"paired_device": 8448,
+			"messages_received": [
+				{
+					"message": "8448_8449_1579432323_Hello world",
+					"already_exists": 0
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 3.592000
+		},
+		{
+			"started_at": 6429.991748,
+			"paired_device": 8450,
+			"messages_received": [
+				{
+					"message": "8448_8449_1579432323_Hello world",
+					"already_exists": 1
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 5.925000
+		},
+		{
+			"started_at": 6546.398066,
+			"paired_device": 8448,
+			"messages_sent": [
+				{
+					"message": "8449_8450_1579432440_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 5.411000
+		},
+		{
+			"started_at": 6546.408766,
+			"paired_device": 8450,
+			"messages_sent": [
+				{
+					"message": "8449_8450_1579432440_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 8.408000
+		},
+		{
+			"started_at": 6662.212493,
+			"paired_device": 8448,
+			"messages_received": [
+				{
+					"message": "8448_8450_1579432556_Hello world",
+					"already_exists": 0
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 3.753000
+		},
+		{
+			"started_at": 6663.053912,
+			"paired_device": 8450,
+			"messages_sent": [
+				{
+					"message": "8448_8450_1579432556_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 9.944000
+		},
+		{
+			"started_at": 6676.339740,
+			"paired_device": 8450,
+			"messages_received": [
+				{
+					"message": "8450_8448_1579432570_Hello world",
+					"already_exists": 0
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 3.625000
+		},
+		{
+			"started_at": 6676.505674,
+			"paired_device": 8448,
+			"messages_sent": [
+				{
+					"message": "8450_8448_1579432570_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 5.224000
+		},
+		{
+			"started_at": 6791.713855,
+			"paired_device": 8448,
+			"messages_sent": [
+				{
+					"message": "8449_8448_1579432685_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 5.555000
+		},
+		{
+			"started_at": 6791.724218,
+			"paired_device": 8450,
+			"messages_sent": [
+				{
+					"message": "8449_8448_1579432685_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 9.589000
+		},
+		{
+			"started_at": 6813.292010,
+			"paired_device": 8448,
+			"messages_received": [
+				{
+					"message": "8448_8449_1579432707_Hello world",
+					"already_exists": 0
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 3.743000
+		},
+		{
+			"started_at": 6813.755912,
+			"paired_device": 8450,
+			"messages_received": [
+				{
+					"message": "8448_8449_1579432707_Hello world",
+					"already_exists": 1
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 4.639000
+		},
+		{
+			"started_at": 6838.115228,
+			"paired_device": 8450,
+			"messages_received": [
+				{
+					"message": "8450_8448_1579432732_Hello world",
+					"already_exists": 0
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 6.782000
+		},
+		{
+			"started_at": 6838.939387,
+			"paired_device": 8448,
+			"messages_sent": [
+				{
+					"message": "8450_8448_1579432732_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 5.334000
+		},
+		{
+			"started_at": 6959.433703,
+			"paired_device": 8448,
+			"messages_received": [
+				{
+					"message": "8448_8450_1579432853_Hello world",
+					"already_exists": 0
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 3.941000
+		},
+		{
+			"started_at": 6959.935867,
+			"paired_device": 8450,
+			"messages_sent": [
+				{
+					"message": "8448_8450_1579432853_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 5.704000
+		},
+		{
+			"started_at": 7011.060109,
+			"paired_device": 8450,
+			"messages_received": [
+				{
+					"message": "8450_8448_1579432905_Hello world",
+					"already_exists": 0
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 3.282000
+		},
+		{
+			"started_at": 7011.743898,
+			"paired_device": 8448,
+			"messages_sent": [
+				{
+					"message": "8450_8448_1579432905_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 5.409000
+		},
+		{
+			"started_at": 7024.134448,
+			"paired_device": 8448,
+			"messages_sent": [
+				{
+					"message": "8449_8448_1579432918_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 5.518000
+		},
+		{
+			"started_at": 7024.144935,
+			"paired_device": 8450,
+			"messages_sent": [
+				{
+					"message": "8449_8448_1579432918_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 5.731000
+		},
+		{
+			"started_at": 7105.146687,
+			"paired_device": 8450,
+			"messages_received": [
+				{
+					"message": "8450_8449_1579432999_Hello world",
+					"already_exists": 0
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 3.503000
+		},
+		{
+			"started_at": 7105.671255,
+			"paired_device": 8448,
+			"messages_received": [
+				{
+					"message": "8450_8449_1579432999_Hello world",
+					"already_exists": 1
+				}
+			],
+			"messages_sent": [
+			],
+			"duration_msec": 3.613000
+		},
+		{
+			"started_at": 7131.533632,
+			"paired_device": 8448,
+			"messages_sent": [
+				{
+					"message": "8449_8448_1579433025_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 6.382000
+		},
+		{
+			"started_at": 7131.545617,
+			"paired_device": 8450,
+			"messages_sent": [
+				{
+					"message": "8449_8448_1579433025_Hello world",
+					"success": 1
+				}
+			],
+			"messages_received": [
+			],
+			"duration_msec": 5.918000
+		}
+	]
+}
