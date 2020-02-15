@@ -20,7 +20,7 @@ void error(const char *msg)
 
 uint32_t random_interval(uint32_t min, uint32_t max)
 {
-    return (rand() % (max - min + 1)) + min;
+  return (rand() % (max - min + 1)) + min;
 }
 
 void init_connection_settings()
@@ -40,18 +40,18 @@ void init_connection_settings()
 
   if (pthread_mutex_init(&msg_queue_lock, NULL) != 0)
   {
-      printf("Mutex init has failed\n");
-      exit(EXIT_FAILURE);
+    printf("Mutex init has failed\n");
+    exit(EXIT_FAILURE);
   }
   if (pthread_mutex_init(&write_logs_lock, NULL) != 0)
   {
-      printf("Mutex init has failed\n");
-      exit(EXIT_FAILURE);
+    printf("Mutex init has failed\n");
+    exit(EXIT_FAILURE);
   }
   if (pthread_mutex_init(&active_connections_lock, NULL) != 0)
   {
-      printf("Mutex init has failed\n");
-      exit(EXIT_FAILURE);
+    printf("Mutex init has failed\n");
+    exit(EXIT_FAILURE);
   }
 
   // Use current time as seed for random generator
@@ -62,10 +62,10 @@ void init_connection_settings()
   fp_logs = fopen(filename, "w");
 
   if (!fp_logs)
-	{
-		perror("Could not write to file");
-		exit(EXIT_FAILURE);
-	}
+  {
+    perror("Could not write to file");
+    exit(EXIT_FAILURE);
+  }
 
   fprintf(fp_logs, "{\n\t\"sessions\": [");
 }
@@ -172,6 +172,8 @@ void receive_new_messages(int newsockfd, queue *q, int device_connected_index, c
 
     short int already_exists = 0;
     pthread_mutex_lock(&msg_queue_lock);
+
+    // check if the received message already exists in the queue
     if (!exists_in_queue(q, &mes))
     {
       enqueue(q, &mes, device_connected_index);
@@ -275,8 +277,7 @@ void *exchange_messages_worker(void *args)
 
   char buffer_for_logs[1024 * 100];
 
-
-
+  // check if a active connection with the specific device already exists
   pthread_mutex_lock(&active_connections_lock);
   short int connection_already_exists = active_connections[device_connected_index];
   if (!connection_already_exists)
@@ -294,6 +295,7 @@ void *exchange_messages_worker(void *args)
     "\n\t\t{\n\t\t\t\"started_at\": %.6f,\n\t\t\t\"paired_device\": %u",
     started_at, devices_info.device_ids[device_connected_index]);
 
+  // perform a handshake
   short int handshake_done = 0;
   if (!connection_already_exists)
   {
@@ -305,7 +307,7 @@ void *exchange_messages_worker(void *args)
     }
   }
 
-
+  // exchange messages if the condition is fulfilled
   short int message_exchange_condition = (!connection_already_exists && handshake_done);
   // server mode
   if (mode == 1)
@@ -363,8 +365,6 @@ void *exchange_messages_worker(void *args)
     "%s\n\t\t\t],\n\t\t\t\"duration_msec\": %.6f\n\t\t}",
     buffer_for_logs, duration);
 
-
-
   pthread_mutex_lock(&write_logs_lock);
   long unsigned int current_session_num = ++session_num;
 
@@ -374,7 +374,6 @@ void *exchange_messages_worker(void *args)
     fprintf(fp_logs, ",%s", buffer_for_logs);
 
   pthread_mutex_unlock(&write_logs_lock);
-
 
 }
 
@@ -419,10 +418,11 @@ void server_mode(queue *q)
 
   while (1)
   {
+    // accept new connection
     newsockfd = accept(sockfd, (struct sockaddr *) &cli_addr, &clilen);
     if (newsockfd < 0) error("ERROR on accept");
 
-    //  - get client address
+    // get client address
     char client_ip[INET_ADDRSTRLEN];
     inet_ntop(AF_INET, &(cli_addr.sin_addr), client_ip, INET_ADDRSTRLEN);
     printf("[*] Established connection with %s (server mode)\n\n", client_ip);
@@ -448,13 +448,13 @@ void server_mode(queue *q)
 
 }
 
-
 short int client_mode(queue *q, int device_to_connect_index)
 {
   int sockfd;
   struct sockaddr_in serv_addr;
   struct timeval session_startwtime, session_endwtime;
 
+  // Creating socket file descriptor
   sockfd = socket(AF_INET, SOCK_STREAM, 0);
   if (sockfd < 0)
     error("ERROR opening socket");
@@ -464,6 +464,7 @@ short int client_mode(queue *q, int device_to_connect_index)
   serv_addr.sin_addr.s_addr = inet_addr(devices_info.device_IP[device_to_connect_index]);
   serv_addr.sin_port = htons(PORT);
 
+  // initiate connection
   if (connect(sockfd,(struct sockaddr *)&serv_addr,sizeof(serv_addr)) < 0)
   {
     close(sockfd);
@@ -477,13 +478,10 @@ short int client_mode(queue *q, int device_to_connect_index)
     .mode = 2 // client mode
   };
 
-
   exchange_messages_worker((void *) &args);
 
   return 1;
-
 }
-
 
 void *server_mode_worker(void *args)
 {
@@ -500,6 +498,8 @@ void *client_mode_worker(void *args)
   {
     for (int dev_index = 0; dev_index < devices_info.number_of_devices; dev_index++)
     {
+      // try to connect with a device only if there is not an active connection
+      // with it and there is a new message in queue for transmission
       if (active_connections[dev_index] || !msg_queue->has_new_messages[dev_index])
         continue;
 
@@ -513,8 +513,9 @@ void *client_mode_worker(void *args)
         printf("[!] Could not establish connection with %s (client mode)\n", devices_info.device_IP[dev_index]);
       }
     }
-    usleep(random_interval(500000, 999999));
 
+    // insert a small random delay
+    usleep(random_interval(500000, 999999));
   }
 
 }

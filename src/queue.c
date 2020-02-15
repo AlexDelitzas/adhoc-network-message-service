@@ -128,6 +128,7 @@ void enqueue(queue *q, const message *mes, int device_connected_index)
 
   q->count++;
 
+  // notify that there is a new message for transmission
   if (final_destination_id != MY_ID)
   {
     for (int i = 0; i < devices_info.number_of_devices; i++)
