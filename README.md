@@ -4,6 +4,22 @@
 This project provides a real-time message exchange system for ad hoc networks. The communication between the nodes is based on TCP sockets. The implementation uses tools available on most POSIX-compliant systems. It was also tested on a wireless ad hoc network (WANET) consisted of 3 Raspberry Pi Zero W devices.
 
 ## Description
+The goal of this project is the implementation of a message exchange system which handles the flow of messages between the nodes of an ad hoc network. For the network nodes, real-time embedded systems could be used. \
+This application runs on every device in the network and is responsible for transmitting and receiving messages through WiFi with every other device in its range. Every message contains the following fields: 
+* Sender ID: `uint32`
+* Recipient ID: `uint32`
+* Creation time: Linux timestamp `uint64`
+* Message body: ASCII `char[256]`
+
+These fields are seperated by the symbol `_`. For example:
+
+    7592_6998_1387909800_Test message
+    
+The application saves in a buffer the messages that it creates or receives. It also keeps track of the devices to which the messages have been sent. Every time that two devices connect with each other, an exchange of their new messages is performed. A device attempts to connect with other devices in its range, when it has new messages in the buffer.  
+
+Every node in the network is characterized by a 4-digit ID. IP addresses are formed as `10.0.XX.YY`, where XX are the first 2 digits and YY the last 2 digits of the ID. 
+
+For simulation purposes, every node generates messages to a random recipient in a random time interval of 1 to 5 minutes. 
 
 ## Setup
 
