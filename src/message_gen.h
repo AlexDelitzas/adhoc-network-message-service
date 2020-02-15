@@ -10,6 +10,8 @@
 #include <pthread.h>
 
 #define MIN_TO_SEC 60
+
+// set the minimum and maximum of the random generation time interval
 #define MIN_TIME (1*MIN_TO_SEC)
 #define MAX_TIME (5*MIN_TO_SEC)
 
