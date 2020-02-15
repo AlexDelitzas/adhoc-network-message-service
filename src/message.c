@@ -53,14 +53,11 @@ void char_array_to_message(message *mes, char *str)
 
   mes->receiver = (uint32_t) strtoul(token, NULL, 10);
 
-
   token = strtok(NULL, delim);
 
   mes->timestamp = (uint64_t) strtoull(token, NULL, 10);
 
-
   token = strtok(NULL, delim);
 
   strcpy(mes->body, token);
-
 }

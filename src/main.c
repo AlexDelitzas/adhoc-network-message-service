@@ -48,7 +48,7 @@ int main(int argc, char *argv[])
   struct tm *time_info = localtime(&rawtime);
 
   printf("===================\n");
-	printf("[*] Session started: %s\n", asctime(time_info));
+  printf("[*] Session started: %s\n", asctime(time_info));
   printf("Number of devices in ad-hoc network: %d\n", devices_info.number_of_devices + 1);
   printf("Experiment duration: %d sec\n", total_duration);
   printf("===================\n\n");
@@ -87,7 +87,7 @@ int main(int argc, char *argv[])
   pthread_join(message_generator_thread, NULL);
   printf("Message generator thread - Cancelled\n");
 
-  // wait for unfinished session to complete 
+  // wait for unfinished session to complete
   unsigned int cancel_wait_time = 5 * (devices_info.number_of_devices + 1);
   printf("Wait for %d sec for all message exchanges to complete\n", cancel_wait_time);
   sleep(cancel_wait_time);

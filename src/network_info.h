@@ -5,6 +5,7 @@
 
 #define DEVICES_FILENAME "../devices_info/device_ids.txt"
 
+// if the device ID is not defined, set it to a default value
 #ifndef MY_ID
 #define MY_ID 8448
 #endif
@@ -34,7 +35,5 @@ int get_device_index_from_ip(const char *ip);
 void set_devices_info(devices_in_network_info *devices_info);
 
 void free_devices_in_network_info(devices_in_network_info *devices_info);
-
-
 
 #endif /* NETWORK_INFO_H */

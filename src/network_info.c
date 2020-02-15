@@ -4,6 +4,7 @@
 
 #include "network_info.h"
 
+// get the number of other devices in the network
 unsigned int find_number_of_devices()
 {
   unsigned int number_of_devices = 0;
@@ -20,29 +21,27 @@ unsigned int find_number_of_devices()
     exit(EXIT_FAILURE);
   }
 
-  /* Get the first line of the file. */
+  // get the first line of the file
   line_size = getline(&line_buf, &line_buf_size, fp);
 
-  /* Loop through until we are done with the file. */
+  /* Loop until the end of the file. */
   while (line_size >= 0)
   {
-    /* Increment our line count */
     number_of_devices++;
 
-    /* Get the next line */
+    // get the next line
     line_size = getline(&line_buf, &line_buf_size, fp);
   }
 
-  /* Free the allocated line buffer */
   free(line_buf);
 
-  /* Close the file now that we are done with it */
   fclose(fp);
 
   // return the number of the other devices in the network
   return (number_of_devices-1);
 }
 
+// get the IDs of the devices in the ad hoc network
 void get_device_ids(uint32_t **device_ids, unsigned int number_of_devices)
 {
   FILE *fp;
@@ -66,38 +65,31 @@ void get_device_ids(uint32_t **device_ids, unsigned int number_of_devices)
     exit(EXIT_FAILURE);
   }
 
-  /* Get the first line of the file. */
+  // get the first line of the file
   line_size = getline(&line_buf, &line_buf_size, fp);
 
-  /* Loop through until we are done with the file. */
+  // read the device IDs from the file
   while (line_size >= 0)
   {
-    /* Show the line details */
-    // printf("line[%06d]: chars=%06zd, buf size=%06zu, contents: %s", line_count,
-    //     line_size, line_buf_size, line_buf);
     uint32_t id = (uint32_t) atol(line_buf);
 
     if (id != MY_ID)
     {
       (*device_ids)[device_index] = (uint32_t) atol(line_buf);
 
-      /* Increment our device index */
       device_index++;
     }
 
-    /* Get the next line */
+    // get the next line
     line_size = getline(&line_buf, &line_buf_size, fp);
-
   }
 
-  /* Free the allocated line buffer */
   free(line_buf);
-  // line_buf = NULL;
 
-  /* Close the file now that we are done with it */
   fclose(fp);
 }
 
+// get a device IP from its ID
 void get_ip_from_id(uint32_t id, char *ip)
 {
   if (id < 1000 || id > 9999)
@@ -112,6 +104,7 @@ void get_ip_from_id(uint32_t id, char *ip)
   sprintf(ip, "10.0.%hhu.%hhu", ip_part3, ip_part4);
 }
 
+// find the position of a device in the devices_info.device_IP array
 int get_device_index_from_ip(const char *ip)
 {
   for (int i = 0; i < devices_info.number_of_devices; i++)
@@ -125,6 +118,7 @@ int get_device_index_from_ip(const char *ip)
   return -1;
 }
 
+// fill the struct devices_in_network_info
 void set_devices_info(devices_in_network_info *devices_info)
 {
   devices_info->my_id = MY_ID;
