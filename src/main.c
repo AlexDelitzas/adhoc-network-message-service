@@ -14,11 +14,11 @@ struct timeval exp_startwtime;
 int main(int argc, char *argv[])
 {
   if (argc != 2)
-	{
-		printf("Usage: %s t\n", argv[0]);
-		printf("\t- t: total duration (seconds)\n");
-		exit(EXIT_FAILURE);
-	}
+  {
+    printf("Usage: %s t\n", argv[0]);
+    printf("\t- t: total duration (seconds)\n");
+    exit(EXIT_FAILURE);
+  }
 
   int total_duration = atoi(argv[1]);
 
@@ -33,6 +33,7 @@ int main(int argc, char *argv[])
   sigaddset(&set, SIGALRM);
   pthread_sigmask(SIG_BLOCK, &set, NULL);
 
+  // get information for all devices in the network
   extern devices_in_network_info devices_info;
   set_devices_info(&devices_info);
 
@@ -41,11 +42,10 @@ int main(int argc, char *argv[])
 
   init_connection_settings();
 
-
   // get the date and time that the session started
-	time_t rawtime;
-	time(&rawtime);
-	struct tm *time_info = localtime(&rawtime);
+  time_t rawtime;
+  time(&rawtime);
+  struct tm *time_info = localtime(&rawtime);
 
   printf("===================\n");
 	printf("[*] Session started: %s\n", asctime(time_info));
@@ -54,21 +54,24 @@ int main(int argc, char *argv[])
   printf("===================\n\n");
   printf("----- Activity Logs -----\n");
 
-
   gettimeofday(&exp_startwtime, NULL);
-
 
   pthread_t message_generator_thread;
   pthread_t client_mode_thread;
   pthread_t server_mode_thread;
 
+  // create a thread to handle message generation
   pthread_create(&message_generator_thread, NULL, message_generator, (void *) msg_queue);
 
+  // create a thread to handle client mode (sending connection requests to other devices)
   pthread_create(&client_mode_thread, NULL, client_mode_worker, (void *) msg_queue);
+
+  // create a thread to handle server mode (receiving connection requests from other devices)
   pthread_create(&server_mode_thread, NULL, server_mode_worker, (void *) msg_queue);
 
   struct timeval exp_endwtime;
 
+  // wait for the experiment to complete
   while (1)
   {
     gettimeofday(&exp_endwtime, NULL);
@@ -79,10 +82,12 @@ int main(int argc, char *argv[])
 
   printf("\nCancelling threads...\n");
 
+  // stop generating messages
   pthread_cancel(message_generator_thread);
   pthread_join(message_generator_thread, NULL);
   printf("Message generator thread - Cancelled\n");
 
+  // wait for unfinished session to complete 
   unsigned int cancel_wait_time = 5 * (devices_info.number_of_devices + 1);
   printf("Wait for %d sec for all message exchanges to complete\n", cancel_wait_time);
   sleep(cancel_wait_time);
@@ -107,11 +112,11 @@ int main(int argc, char *argv[])
   free_devices_in_network_info(&devices_info);
 
   // get the date and time that the session ended
-	time(&rawtime);
-	time_info = localtime(&rawtime);
+  time(&rawtime);
+  time_info = localtime(&rawtime);
 
   printf("===================\n");
-	printf("[*] Session ended at: %s\n", asctime(time_info));
+  printf("[*] Session ended at: %s\n", asctime(time_info));
   printf("===================\n\n");
 
   return 0;
